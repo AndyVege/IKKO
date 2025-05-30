@@ -46,6 +46,13 @@ export default async function HomePage() {
           >
             Documentation
           </a>
+          
+    <h1 className="text-4xl text-red-500 bg-yellow-200 p-4">
+      Fungerer Tailwind nå?
+    </h1>
+  
+
+
         </div>
       </div>
       <div className="footer">
