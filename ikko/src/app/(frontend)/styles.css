@@ -1,6 +1,6 @@
-:root {
-  --font-mono: 'Roboto Mono', monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import "tailwindcss";
+
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ html {
   font-size: 18px;
   line-height: 32px;
 
-  background: rgb(0, 0, 0);
+  background: rgb(240, 240, 241);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -21,7 +21,7 @@ body,
 }
 
 body {
-  font-family: system-ui;
+  font-family: "matemasie", Arial, system-ui;
   font-size: 18px;
   line-height: 32px;
 
