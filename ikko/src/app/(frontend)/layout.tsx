@@ -18,11 +18,11 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
     <html lang="no">
       <body>
         <nav className="bg-white shadow-2xs">
-          <div className="flex space-x-4 p-5 text-xl text-black">
-              <a href="#" className="text-blue-700 hover:text-black">ikko</a>
-              <a href="#" className="hover:text-blue-700">hjem</a>
-              <a href="#" className="hover:text-blue-700">oppskrifter</a>
-              <a href="#" className="hover:text-blue-700">info</a>
+          <div className="flex space-x-4 p-5 text-xl ">
+              <a href="#" className="text-blue-700 !important hover:text-black">ikko</a>
+              <a href="#" className="text-black hover:text-blue-700">hjem</a>
+              <a href="#" className="text-black hover:text-blue-700">oppskrifter</a>
+              <a href="#" className="text-black hover:text-blue-700">info</a>
           </div>
         </nav>
         <main>{children}</main>
